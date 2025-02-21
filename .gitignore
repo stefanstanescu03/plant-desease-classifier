@@ -1,0 +1,49 @@
+# Ignore the dataset folder
+dataset
+data
+features
+
+# Ignore common temporary files
+*.tsv
+*.json
+*.xlsx
+
+# Ignore audio and media files (if applicable)
+*.wav
+*.mp3
+*.mp4
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model checkpoints and logs
+checkpoints/
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.pkl
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore logs and debug files
+*.log
+*.txt
+
+# Ignore large files for ML experiments
+*.npy
+*.npz
+*.pkl
